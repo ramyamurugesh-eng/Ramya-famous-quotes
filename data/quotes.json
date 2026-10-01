@@ -7,7 +7,7 @@
   },
   {
     "id": 2,
-    "quote": "In the middle of difficulty lies opportunity.",
+    "quote": "A person who never made a mistake never tried anything new.",
     "author": "Albert Einstein",
     "category": "Inspiration"
   },
@@ -31,15 +31,15 @@
   },
   {
     "id": 6,
-    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "quote": "Never give in. Never give in. Never, never, never, never—in nothing, great or small, large or petty—never give in, except to convictions of honour and good sense.",
     "author": "Winston Churchill",
     "category": "Courage"
   },
   {
     "id": 7,
-    "quote": "You must be the change you wish to see in the world.",
+    "quote": "The weak can never forgive. Forgiveness is the attribute of the strong.",
     "author": "Mahatma Gandhi",
-    "category": "Leadership"
+    "category": "Wisdom"
   },
   {
     "id": 8,
@@ -49,21 +49,21 @@
   },
   {
     "id": 9,
-    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "quote": "No one can make you feel inferior without your consent.",
     "author": "Eleanor Roosevelt",
     "category": "Inspiration"
   },
   {
     "id": 10,
     "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
-    "author": "Ralph Waldo Emerson",
+    "author": "Muriel Strode",
     "category": "Leadership"
   },
   {
     "id": 11,
     "quote": "It is during our darkest moments that we must focus to see the light.",
-    "author": "Aristotle",
-    "category": "Philosophy"
+    "author": "Aristotle Onassis",
+    "category": "Inspiration"
   },
   {
     "id": 12,
@@ -73,19 +73,19 @@
   },
   {
     "id": 13,
-    "quote": "Life is what happens when you're busy making other plans.",
+    "quote": "Count your age by friends, not years. Count your life by smiles, not tears.",
     "author": "John Lennon",
     "category": "Life"
   },
   {
     "id": 14,
-    "quote": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    "quote": "An investment in knowledge pays the best interest.",
     "author": "Benjamin Franklin",
     "category": "Wisdom"
   },
   {
     "id": 15,
-    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "quote": "It always seems impossible until it's done.",
     "author": "Nelson Mandela",
     "category": "Courage"
   },
@@ -127,19 +127,19 @@
   },
   {
     "id": 22,
-    "quote": "Knowing yourself is the beginning of all wisdom.",
+    "quote": "Happiness depends upon ourselves.",
     "author": "Aristotle",
     "category": "Philosophy"
   },
   {
     "id": 23,
-    "quote": "Be yourself; everyone else is already taken.",
+    "quote": "Most people are other people. Their thoughts are someone else's opinions, their lives a mimicry, their passions a quotation.",
     "author": "Oscar Wilde",
     "category": "Literature"
   },
   {
     "id": 24,
-    "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "quote": "We cannot solve our problems with the same thinking we used when we created them.",
     "author": "Albert Einstein",
     "category": "Science"
   },
@@ -151,14 +151,14 @@
   },
   {
     "id": 26,
-    "quote": "A room without books is like a body without a soul.",
+    "quote": "If you have a garden and a library, you have everything you need.",
     "author": "Marcus Tullius Cicero",
     "category": "Philosophy"
   },
   {
     "id": 27,
-    "quote": "You only live once, but if you do it right, once is enough.",
-    "author": "Mae West",
+    "quote": "One lives but once in the world.",
+    "author": "Johann Wolfgang von Goethe",
     "category": "Life"
   },
   {
@@ -199,7 +199,7 @@
   },
   {
     "id": 34,
-    "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "quote": "The future depends on what we do in the present.",
     "author": "Mahatma Gandhi",
     "category": "Wisdom"
   },
@@ -223,15 +223,15 @@
   },
   {
     "id": 38,
-    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "quote": "To be great is to be misunderstood.",
     "author": "Ralph Waldo Emerson",
     "category": "Inspiration"
   },
   {
     "id": 39,
-    "quote": "It is never too late to be what you might have been.",
+    "quote": "What do we live for, if it is not to make life less difficult to each other?",
     "author": "George Eliot",
-    "category": "Inspiration"
+    "category": "Literature"
   },
   {
     "id": 40,
@@ -241,7 +241,7 @@
   },
   {
     "id": 41,
-    "quote": "Everything you can imagine is real.",
+    "quote": "Action is the foundational key to all success.",
     "author": "Pablo Picasso",
     "category": "Art"
   },
@@ -259,13 +259,13 @@
   },
   {
     "id": 44,
-    "quote": "Whatever you are, be a good one.",
+    "quote": "Folks are usually about as happy as they make their minds up to be.",
     "author": "Abraham Lincoln",
-    "category": "Leadership"
+    "category": "Wisdom"
   },
   {
     "id": 45,
-    "quote": "Do what you can, with what you have, where you are.",
+    "quote": "It is not the critic who counts; not the man who points out how the strong man stumbles. The credit belongs to the man who is actually in the arena.",
     "author": "Theodore Roosevelt",
     "category": "Courage"
   },
@@ -295,7 +295,7 @@
   },
   {
     "id": 50,
-    "quote": "Somewhere, something incredible is waiting to be known.",
+    "quote": "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself.",
     "author": "Carl Sagan",
     "category": "Science"
   },
@@ -385,8 +385,8 @@
   },
   {
     "id": 65,
-    "quote": "The purpose of art is washing the dust of daily life off our souls.",
-    "author": "Pablo Picasso",
+    "quote": "The greater danger for most of us lies not in setting our aim too high and falling short, but in setting our aim too low, and achieving our mark.",
+    "author": "Michelangelo",
     "category": "Art"
   },
   {
@@ -415,7 +415,7 @@
   },
   {
     "id": 70,
-    "quote": "Simplicity is the ultimate sophistication.",
+    "quote": "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigors of the mind.",
     "author": "Leonardo da Vinci",
     "category": "Wisdom"
   },
@@ -433,9 +433,9 @@
   },
   {
     "id": 73,
-    "quote": "The secret of getting ahead is getting started.",
+    "quote": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
     "author": "Mark Twain",
-    "category": "Success"
+    "category": "Wisdom"
   },
   {
     "id": 74,
@@ -445,9 +445,9 @@
   },
   {
     "id": 75,
-    "quote": "Believe you can and you're halfway there.",
+    "quote": "Courage is not having the strength to go on; it is going on when you don't have the strength.",
     "author": "Theodore Roosevelt",
-    "category": "Inspiration"
+    "category": "Courage"
   },
   {
     "id": 76,
@@ -457,14 +457,14 @@
   },
   {
     "id": 77,
-    "quote": "Success usually comes to those who are too busy to be looking for it.",
+    "quote": "Go confidently in the direction of your dreams! Live the life you've imagined.",
     "author": "Henry David Thoreau",
     "category": "Success"
   },
   {
     "id": 78,
-    "quote": "Don't be afraid to give up the good to go for the great.",
-    "author": "John D. Rockefeller",
+    "quote": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "author": "Thomas Edison",
     "category": "Success"
   },
   {
@@ -481,7 +481,7 @@
   },
   {
     "id": 81,
-    "quote": "Never let the fear of striking out keep you from playing the game.",
+    "quote": "Every strike brings me closer to the next home run.",
     "author": "Babe Ruth",
     "category": "Courage"
   },
@@ -523,7 +523,7 @@
   },
   {
     "id": 88,
-    "quote": "Doubt is the origin of wisdom.",
+    "quote": "If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things.",
     "author": "René Descartes",
     "category": "Philosophy"
   },
@@ -547,15 +547,15 @@
   },
   {
     "id": 92,
-    "quote": "Don't cry because it's over, smile because it happened.",
+    "quote": "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",
     "author": "Dr. Seuss",
-    "category": "Life"
+    "category": "Inspiration"
   },
   {
     "id": 93,
-    "quote": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    "quote": "Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.)",
     "author": "Walt Whitman",
-    "category": "Inspiration"
+    "category": "Literature"
   },
   {
     "id": 94,
@@ -565,7 +565,7 @@
   },
   {
     "id": 95,
-    "quote": "Life is really simple, but we insist on making it complicated.",
+    "quote": "What you do not wish for yourself, do not do to others.",
     "author": "Confucius",
     "category": "Wisdom"
   },
@@ -583,9 +583,9 @@
   },
   {
     "id": 98,
-    "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "quote": "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently.",
     "author": "Maya Angelou",
-    "category": "Life"
+    "category": "Courage"
   },
   {
     "id": 99,
@@ -595,7 +595,7 @@
   },
   {
     "id": 100,
-    "quote": "Stay hungry, stay foolish.",
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
     "author": "Steve Jobs",
     "category": "Inspiration"
   }
