@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore 100 well-known quotes by famous authors across philosophy, science, leadership, and art. Search and filter instantly with pure vanilla JavaScript and Python Flask.">
+  <title>Quoteverse | 100 Famous & Timeless Quotes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">❝❞</div>
+        <div>
+          <h1>Quoteverse</h1>
+          <p class="tagline">Timeless wisdom from history's greatest minds</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="badge badge-accent" id="stats-badge">100 Curated Quotes</span>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Spotlight Random Quote Section -->
+      <section class="spotlight-section" aria-label="Featured Random Quote">
+        <div class="spotlight-header">
+          <span class="section-label">⚡ Daily Inspiration</span>
+          <span class="keyboard-hint"><kbd>Space</kbd> or <kbd>R</kbd> for next quote</span>
+        </div>
+
+        <div class="spotlight-card" id="spotlight-card">
+          <div class="card-quote-mark" aria-hidden="true">“</div>
+          <div class="spotlight-content">
+            <span class="category-tag" id="spotlight-category">Inspiration</span>
+            <blockquote id="spotlight-quote" class="spotlight-text">
+              Loading an inspiring quote...
+            </blockquote>
+            <cite id="spotlight-author" class="spotlight-author">— Author</cite>
+          </div>
+
+          <div class="spotlight-actions">
+            <button type="button" class="btn btn-primary" id="btn-new-quote" title="Get a new random quote (Spacebar / R)">
+              <span class="btn-icon">↻</span>
+              <span>New Random Quote</span>
+            </button>
+            <button type="button" class="btn btn-secondary" id="btn-copy-spotlight" title="Copy quote to clipboard">
+              <span class="btn-icon">⎘</span>
+              <span class="copy-label">Copy Quote</span>
+            </button>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" id="btn-share-spotlight" title="Share on X">
+              <span class="btn-icon">𝕏</span>
+              <span>Share</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Search & Filters Section -->
+      <section class="filter-section" aria-label="Search and filter quotes">
+        <div class="filter-controls-row">
+          <!-- Search input -->
+          <div class="search-box">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input 
+              type="text" 
+              id="search-input" 
+              placeholder="Search quotes or authors (e.g. Einstein, courage, dreams)..." 
+              autocomplete="off"
+              aria-label="Search quotes or authors"
+            >
+            <button type="button" id="search-clear" class="btn-clear" aria-label="Clear search query" hidden>✕</button>
+          </div>
+
+          <!-- Author select dropdown -->
+          <div class="select-wrapper">
+            <label for="author-select" class="sr-only">Filter by Author</label>
+            <select id="author-select" aria-label="Filter by Author">
+              <option value="">All Authors</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Category chips -->
+        <div class="category-chips-wrapper">
+          <span class="filter-label">Categories:</span>
+          <div class="category-chips" id="category-chips" role="radiogroup" aria-label="Filter by Category">
+            <button type="button" class="chip active" data-category="all" role="radio" aria-checked="true">
+              All <span class="chip-count" id="count-all">100</span>
+            </button>
+            <!-- Injected by JavaScript -->
+          </div>
+        </div>
+
+        <!-- Filter stats & reset -->
+        <div class="filter-summary-bar">
+          <div class="results-count" id="results-count" aria-live="polite">
+            Showing <strong>100</strong> quotes
+          </div>
+          <button type="button" class="btn-link" id="btn-reset-filters" hidden>
+            ✕ Reset Filters
+          </button>
+        </div>
+      </section>
+
+      <!-- Quotes Catalog Grid -->
+      <section class="catalog-section" aria-label="Quotes collection">
+        <div class="quotes-grid" id="quotes-grid">
+          <!-- Quote cards will be dynamically rendered here -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="empty-state" hidden>
+          <div class="empty-icon">🔎</div>
+          <h3>No quotes found</h3>
+          <p>We couldn't find any quotes matching your current search and filters.</p>
+          <button type="button" class="btn btn-primary" id="btn-empty-reset">Reset All Filters</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Quoteverse &bull; 100 Well-Known Quotes &bull; Powered by Python Flask &amp; Plain Vanilla JavaScript</p>
+    </footer>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container" id="toast-container" aria-live="assertive" aria-atomic="true"></div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
